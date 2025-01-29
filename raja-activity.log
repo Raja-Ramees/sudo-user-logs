@@ -1,0 +1,36 @@
+2025-01-27T22:17:45.388893+05:30 FSPLLAPNODDR02 normal_user_commands[2259]: root run command: ll
+2025-01-27T22:17:51.646259+05:30 FSPLLAPNODDR02 normal_user_commands[2259]: root run command: ll
+2025-01-27T22:18:00.194193+05:30 FSPLLAPNODDR02 normal_user_commands[2259]: root run command: systemctl restart rsyslog
+2025-01-27T22:18:01.289829+05:30 FSPLLAPNODDR02 normal_user_commands[2259]: root run command: ll
+2025-01-27T22:20:41.721343+05:30 FSPLLAPNODDR02 normal_user_commands[2259]: root run command: vi /etc/rsyslog.conf 
+2025-01-27T22:37:24.595943+05:30 FSPLLAPNODDR02 normal_user_commands[2259]: root run command: systemctl restart rsyslog
+2025-01-27T22:37:26.082461+05:30 FSPLLAPNODDR02 normal_user_commands[2259]: root run command: cal
+2025-01-28T19:26:53.858520+05:30 FSPLLAPNODDR02 normal_user_commands[1359]: root run command: exit
+2025-01-28T19:26:55.601834+05:30 FSPLLAPNODDR02 normal_user_commands[1359]: root run command: cd
+2025-01-28T19:27:16.616073+05:30 FSPLLAPNODDR02 normal_user_commands[1359]: root run command: passwd security
+2025-01-28T19:28:53.446484+05:30 FSPLLAPNODDR02 normal_user_commands[1359]: root run command: apt install net-tools
+2025-01-28T19:29:04.723966+05:30 FSPLLAPNODDR02 normal_user_commands[1359]: root run command: ifconfig
+2025-01-28T19:30:01.164385+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: exit
+2025-01-28T19:30:05.750187+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: cd
+2025-01-28T19:30:07.269907+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: ll
+2025-01-28T19:30:25.844143+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: du -sh jdk-23_linux-x64_bin.rpm 
+2025-01-28T19:30:57.081750+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm jdk-23_linux-x64_bin.rpm 
+2025-01-28T19:30:58.956357+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: ll
+2025-01-28T19:31:16.438661+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: cd /
+2025-01-28T19:31:18.102965+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: ll
+2025-01-28T19:31:27.440934+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: cd
+2025-01-28T19:31:29.863175+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: pwd
+2025-01-28T19:48:35.256048+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: df -Th
+2025-01-28T19:48:49.057098+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: ll
+2025-01-28T19:49:06.841071+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm -rf nodejs-projects/
+2025-01-28T19:49:12.089757+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: ll
+2025-01-28T19:49:18.833248+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm -rf sticky-permission/
+2025-01-28T19:49:20.775984+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: ll
+2025-01-28T19:49:31.375332+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm -rf devops
+2025-01-28T19:49:32.900356+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: ll
+2025-01-28T19:49:43.791236+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm connect_bluetooth.sh 
+2025-01-28T19:49:51.229429+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm acl-dir/
+2025-01-28T19:49:55.671130+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm awx/
+2025-01-28T19:50:04.917425+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm -rf acl-dir/
+2025-01-28T19:50:10.685195+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: rm -rf awx/
+2025-01-28T19:50:12.127696+05:30 FSPLLAPNODDR02 normal_user_commands[1514]: root run command: ll
