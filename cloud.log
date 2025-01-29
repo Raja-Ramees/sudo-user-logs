@@ -1,0 +1,10 @@
+Jan 29 21:48:34 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: systemctl restart rsyslog
+Jan 29 21:48:37 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lt linux.log
+Jan 29 21:48:46 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls
+Jan 29 21:48:47 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: pwd
+Jan 29 21:48:49 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: cat linux.log 
+Jan 29 21:49:11 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: git status
+Jan 29 21:49:35 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: git add linux.log 
+Jan 29 21:50:40 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: git mv linux.log cloud.log
+Jan 29 21:50:44 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lt cloud.log 
+Jan 29 21:50:50 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: git status
