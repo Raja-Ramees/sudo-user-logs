@@ -1,10 +1,36 @@
-Jan 29 21:48:34 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: systemctl restart rsyslog
-Jan 29 21:48:37 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lt linux.log
-Jan 29 21:48:46 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls
-Jan 29 21:48:47 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: pwd
-Jan 29 21:48:49 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: cat linux.log 
-Jan 29 21:49:11 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: git status
-Jan 29 21:49:35 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: git add linux.log 
-Jan 29 21:50:40 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: git mv linux.log cloud.log
-Jan 29 21:50:44 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lt cloud.log 
-Jan 29 21:50:50 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: git status
+Jan 29 21:57:24 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: systemctl restart rsyslog
+Jan 29 21:57:26 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lt cloud.log
+Jan 29 21:57:42 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: systemctl status rsyslog
+Jan 29 21:57:46 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: cd /var/lo
+Jan 29 21:57:48 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: cd
+Jan 29 21:57:51 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: cd /var/log/
+Jan 29 21:57:53 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ll
+Jan 29 21:58:07 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lt cloud.log 
+Jan 29 21:58:19 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: touch critical-file
+Jan 29 21:58:20 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: ll
+Jan 29 21:58:26 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: rm -rf critical-file 
+Jan 29 21:58:33 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: cat cloud.log 
+Jan 29 21:59:08 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: du -sh cloud.log 
+Jan 29 21:59:23 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: touch critical-file
+Jan 29 21:59:25 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: touch critical-file
+Jan 29 21:59:27 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: ll
+Jan 29 21:59:31 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: ll2
+Jan 29 21:59:36 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: touch critical-file2
+Jan 29 21:59:37 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: touch critical-file3
+Jan 29 21:59:40 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: touch critical-file4
+Jan 29 21:59:44 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: cat cloud.log 
+Jan 29 21:59:50 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: du -sh cloud.log 
+Jan 29 21:59:59 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lth cloud.log 
+Jan 29 22:00:13 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: rm -rf critical-file
+Jan 29 22:00:14 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: rm -rf critical-file2 
+Jan 29 22:00:18 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: rm -rf critical-file3
+Jan 29 22:00:20 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: cd
+Jan 29 22:00:24 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: cd /var/
+Jan 29 22:00:25 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: ll
+Jan 29 22:00:28 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls
+Jan 29 22:00:29 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: pwd
+Jan 29 22:00:30 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: date
+Jan 29 22:00:34 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lt cloud.log 
+Jan 29 22:00:40 FSPLLAPNODDR02 normal_user_commands[1680]: joy run command: cd /var/
+Jan 29 22:00:42 FSPLLAPNODDR02 normal_user_commands[1680]: message repeated 3 times: [ joy run command: cd /var/]
+Jan 29 22:00:45 FSPLLAPNODDR02 normal_user_commands[1377]: root run command: ls -lt cloud.log 
